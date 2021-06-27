@@ -822,6 +822,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+  .center_row{
+    flex-direction: column;
+  }
   .page-container {
     overflow-x: hidden;
     position: relative;
